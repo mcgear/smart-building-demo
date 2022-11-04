@@ -1,4 +1,4 @@
-name: fathym-it/smart-building-demo
+name: mcgear/smart-building-demo
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm i
+  InstallCommand: npm ci
   BuildCommand: npm run build
   Output: ./build
 
